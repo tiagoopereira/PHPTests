@@ -1,0 +1,12 @@
+version: "3.7" 
+services:
+  php8:
+    build:
+      context: .
+    image: php8docker
+    container_name: php
+    ports:
+      - "80:80"
+    volumes:
+      - ".:/var/www/html/" 
+    command: php -S 0.0.0.0:80 -t public/
