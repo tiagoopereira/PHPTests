@@ -1,5 +1,8 @@
 # Testes com PHP
 ## Execução
+- Utilizando make (Makefile):
+  - make run
+
 - composer install (Para instalar as dependências e gerar o arquivo de autoload).
 - Utilizando docker:
   - docker-compose up -d
