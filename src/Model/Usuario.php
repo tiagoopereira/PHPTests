@@ -3,10 +3,9 @@ namespace App\Model;
 
 class Usuario
 {
-    /** @var string */
-    private $nome;
-
-    public function __construct(string $nome)
+    public function __construct(
+        private string $nome
+    )
     {
         $this->nome = $nome;
     }
